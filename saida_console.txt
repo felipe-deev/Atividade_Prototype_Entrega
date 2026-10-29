@@ -1,0 +1,18 @@
+﻿=== PEDIDOS ===
+Pedido #1 | (modelo) | - | itens=3 | total=R$ 315,00
+Pedido #3 | Mercado Central | Rua das Flores, 120 | itens=3 | total=R$ 315,00
+Pedido #4 | Padaria Boa Massa | Av. Paraná, 800 | itens=3 | total=R$ 504,00
+Pedido #5 | Restaurante do Porto | Rua do Cais, 45 | itens=4 | total=R$ 387,00
+
+=== CRITÉRIOS DE ACEITAÇÃO ===
+CA-01 IDs diferentes: OK
+CA-02 Total do modelo preservado: OK
+CA-03 Totais A, B e C corretos: OK
+CA-04 Modelo permanece com 3 itens: OK
+CA-05 Itens das cópias independentes: OK
+CA-06 Chave inexistente lança exceção: OK
+CA-07 Cliente do modelo preservado: OK
+RF-12 Serialização com cópia profunda e novo ID: OK
+
+100.000 cópias manuais: 21.482 ms
+100.000 cópias por serialização: 2437.472 ms
